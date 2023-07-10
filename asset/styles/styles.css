@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* max-width: 1920px; */
-    /* min-width: 414px; */
 }
 
 /* nav style section */
@@ -63,22 +61,24 @@ li:hover>.dropdown {
 
 .dropdown-op:hover {
     color: red;
-    border-bottom: 1px solid red ;
+    border-bottom: 1px solid red;
 }
 
 
 .nev-btn {
     margin-left: 20px;
-    border: none;
+    border: 2px solid red;
     background-color: red;
     color: white;
     padding: 4px 10px;
     cursor: pointer;
     border-radius: 8px;
 }
-.nev-btn:hover{
+
+.nev-btn:hover {
+    border: 2px solid red;
     background-color: white;
-    color: red; 
+    color: red;
 }
 
 /* banner section style */
@@ -94,4 +94,34 @@ li:hover>.dropdown {
     align-items: center;
     text-align: center;
     color: white;
+}
+
+.banner-info-title {
+    font-size: 100px;
+    margin: auto;
+}
+
+span {
+    color: red;
+}
+
+.banner-info-description {
+    font-size: 20px;
+    margin: 20px 20%;
+}
+
+.banner-button {
+    padding: 7px 12px;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.banner-button:hover {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
 }
