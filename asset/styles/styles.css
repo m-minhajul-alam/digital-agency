@@ -1,41 +1,97 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     /* min-width: 414px; */
 }
 
 /* nav style section */
 .nav-container {
     background-color: rgb(0, 0, 0);
-    position: sticky;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 10px solid red;
-    border-radius: 0px 0px 10px 10px;
-    color: white
+    color: white;
+    padding: 5px;
+    position: sticky;
 }
 
-.logo-container {
+.nav-logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.menus-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
-    color:white
 }
 
 .items {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-.item{
-    margin-left: 30px;
-    border-left: 5px red;
     cursor: pointer;
 }
-.item:hover{
+
+.item {
+    padding: 4px 10px;
+}
+
+.item:hover {
     color: red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    list-style: none;
+    color: white;
+}
+
+.dropdown-op {
+    padding: 10px;
+}
+
+li:hover>.dropdown {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.354);
+}
+
+.dropdown-op:hover {
+    color: red;
+    border-bottom: 1px solid red ;
+}
+
+
+.nev-btn {
+    margin-left: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.nev-btn:hover{
+    background-color: white;
+    color: red; 
+}
+
+/* banner section style */
+.banner-container {
+    height: 100vh;
+    background-image: url("../image/meeting-bg.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
