@@ -6,12 +6,15 @@
 /* nav style section */
 .nav-container {
     background-color: rgb(0, 0, 0);
+    height: 35px;
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
     padding: 5px;
-    position: sticky;
+
 }
 
 .nav-logo {
@@ -38,9 +41,10 @@
 }
 
 .item:hover {
-    color: red;
-    border-right: 1px solid red;
-    border-bottom: 1px solid red;
+    color: orange;
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange;
+    border-radius: 8px;
 }
 
 .dropdown {
@@ -48,6 +52,7 @@
     position: absolute;
     list-style: none;
     color: white;
+    margin-top: 5px;
 }
 
 .dropdown-op {
@@ -60,13 +65,16 @@ li:hover>.dropdown {
 }
 
 .dropdown-op:hover {
-    color: red;
-    border-bottom: 1px solid red;
+    color: orange;
+    border-bottom: 1px solid orange;
 }
 
+.btn-container {
+    margin-left: 25px;
+}
 
 .nev-btn {
-    margin-left: 20px;
+    margin-left: 15px;
     border: 2px solid red;
     background-color: red;
     color: white;
@@ -125,3 +133,4 @@ span {
     border: 2px solid red;
     color: red;
 }
+
