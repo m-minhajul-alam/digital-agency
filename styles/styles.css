@@ -67,6 +67,8 @@ li:hover>.dropdown {
 .dropdown-op:hover {
     color: orange;
     border-bottom: 1px solid orange;
+    border-right: 1px solid orange;
+    border-radius: 8px;
 }
 
 .btn-container {
@@ -118,7 +120,7 @@ span {
     margin: 20px 20%;
 }
 
-.banner-button {
+.btn-primary {
     padding: 7px 12px;
     background-color: red;
     border: 2px solid red;
@@ -128,9 +130,59 @@ span {
     margin-left: 10px;
 }
 
-.banner-button:hover {
+.btn-primary:hover {
     background-color: white;
     border: 2px solid red;
     color: red;
 }
 
+/* service section style */
+.service {
+    height: 100vh;
+    background-image: url("../asset/image/Banner-Bg-2.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px 30px;
+}
+.survice-info-title{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.survice-info-description {
+    margin-right: 50%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+ol{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.service-boxs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.service-box {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.service-icon {
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
