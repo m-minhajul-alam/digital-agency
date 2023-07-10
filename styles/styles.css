@@ -242,6 +242,7 @@ ol {
     border-radius: 20px;
     margin-top: -40px;
     padding: 5px 20px;
+    box-shadow: 3px 3px black;
 }
 
 .cell {
@@ -268,7 +269,7 @@ ol {
     width: 250px;
     height: 350px;
     border-radius: 10px;
-    box-shadow: 0px 7px 7px 0px black;
+    box-shadow: 3px 3px black;
     padding: 10px;
 }
 
@@ -286,12 +287,30 @@ ol {
 .blog-title {
     font-size: 50px;
     margin: 40px 0px 15px 0px;
-    border-top: 1px solid red;
-    border-radius: 50px;
     padding-top: 10px;
 }
 
 .blog-decs {
     font-size: 20px;
     padding-bottom: 20px;
+}
+
+
+/* footer srction style */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+    ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.footer-info {
+    width: 30%;
 }
