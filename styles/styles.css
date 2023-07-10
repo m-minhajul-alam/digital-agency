@@ -139,7 +139,7 @@ span {
 /* service section style */
 .service {
     height: 100vh;
-    background-image: url("../asset/image/Banner-Bg-2.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url("../asset/image/Banner-Bg-2.jpg"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
@@ -182,6 +182,14 @@ ol {
     border-radius: 20px;
     margin-top: 5px;
     cursor: pointer;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.service-box:hover {
+    color: white;
+    background-color: red;
+
 }
 
 .service-icon {
@@ -197,6 +205,7 @@ ol {
     gap: 20px;
     padding-right: 25px;
     border-right: 1px solid red;
+    cursor: pointer;
 }
 
 .auther-img {
@@ -244,37 +253,45 @@ ol {
     border-right: 1px solid red;
 }
 
-/* blog section desing */
+/* blog and news section desing */
 
-.blog{
+.blog {
     text-align: center;
 }
-.news-img{
+
+.news-img {
     width: 100%;
     border-radius: 10px;
 }
-.news{
+
+.news {
     width: 250px;
     height: 350px;
     border-radius: 10px;
     box-shadow: 0px 7px 7px 0px black;
     padding: 10px;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
-.news-title{
+
+.news-title {
     margin: 8px 0px;
 }
-.blog-title{
+
+.blog-title {
     font-size: 50px;
     margin: 40px 0px 15px 0px;
     border-top: 1px solid red;
     border-radius: 50px;
+    padding-top: 10px;
 }
-.blog-decs{
+
+.blog-decs {
     font-size: 20px;
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
